@@ -7,7 +7,7 @@
 <p align="left">1. Create a folder on your desktop and open it.
 <p align="left">2. At the top of file explorer, click the directory bar and paste this:
 
-``` 
+```sh 
  git clone https://github.com/PooSmacker/Discord-Friend-Backup.git
 
 ```

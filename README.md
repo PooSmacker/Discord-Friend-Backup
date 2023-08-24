@@ -2,6 +2,7 @@
 <h3 align="center">A guy tryna learn code</h3>
 
 <h3 align="left">This python script will use the user.json file in the account folder from your discord data package and export it to a txt file!
+<p>
 <p align="left">Setup:
 <p align+"left">git clone
 </p>

@@ -10,11 +10,11 @@
  ```sh 
  git clone https://github.com/PooSmacker/Discord-Friend-Backup.git
 ```
-<p align="left">3. Navigate to your discord setting > privacy & saftey > scroll down and click "request my data"
-<p align="left">4. Be patient this could take upto 3-4 days to be sent to your email
-<p align="left">5. Extract package.zip
-<p align="left">6. Navigate to the account folder and move user.json to the desktop, this is very important
-<p align="left">7. Now, like earlier navigate to the directory bar and type "cmd", this will open command prompt in the current directory
+<p align="left">3. Navigate to your discord setting > privacy & saftey > scroll down and click "request my data".
+<p align="left">4. Be patient this could take upto 3-4 days to be sent to your email.
+<p align="left">5. Extract package.zip and open it.
+<p align="left">6. Navigate to the account folder and move user.json to the desktop, this is very important.
+<p align="left">7. Now, like earlier navigate to the directory bar and type "cmd", this will open command prompt in the current directory.
 <p align="left">type the following in cmd:
 
 ```sh

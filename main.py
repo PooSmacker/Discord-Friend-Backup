@@ -40,7 +40,6 @@ print(ascii_art)
 print(continuething)
 input("")
 
-# Function to load JSON data from a file
 def load_json_from_desktop(filename):
     desktop_path = os.path.expanduser("~/Desktop")
     json_file_path = os.path.join(desktop_path, filename)
@@ -56,7 +55,6 @@ def load_json_from_desktop(filename):
         print(f"Error decoding JSON in '{json_file_path}': {e}")
         return None
 
-# Function to save JSON data to a file
 def save_json_to_file(filename, data):
     desktop_path = os.path.expanduser("~/Desktop")
     json_file_path = os.path.join(desktop_path, filename)
@@ -68,11 +66,9 @@ def save_json_to_file(filename, data):
     except Exception as e:
         print(f"Error saving data to '{json_file_path}': {e}")
 
-# Function to extract usernames from JSON data
 def extract_usernames(data):
     usernames = []
 
-    # Check if the input data is a dictionary with 'relationships' key
     if isinstance(data, dict) and "relationships" in data:
         relationships = data["relationships"]
         for relationship in relationships:
@@ -82,19 +78,14 @@ def extract_usernames(data):
 
     return usernames
 
-# Your main code logic
 def main():
-    # Specify the JSON filename
     json_filename = 'user.json'
 
-    # Load JSON data from the desktop
     user_data = load_json_from_desktop(json_filename)
 
     if user_data is not None:
-        # Extract usernames from the JSON data
         usernames = extract_usernames(user_data)
 
-        # Print and save the extracted usernames to usernames.txt
         if usernames:
             with open('usernames.txt', 'w', encoding='utf-8') as txt_file:
                 for username in usernames:
@@ -106,7 +97,6 @@ def main():
 if __name__ == "__main__":
     main()
     
-    # Wait for user input to exit
     print("Press Enter to exit")
     
     while True:

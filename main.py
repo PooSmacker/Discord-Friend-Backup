@@ -102,6 +102,6 @@ if __name__ == "__main__":
     while True:
         try:
             input()
-            break  # Exit the loop when Enter is pressed
+            break 
         except KeyboardInterrupt:
-            pass  # Handle Ctrl+C gracefully, if needed
+            pass  
